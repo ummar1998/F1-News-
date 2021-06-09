@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(main.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 50px;
+  font-family: "Titillium Web";
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+}
+
+hr{
+  border-color:#DB5849 ;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer{
+  height: 10px;
+}
+
+.btn{
+  font-weight: 300;
+  font-style:"Titillium Web" ;
+  border-radius: 150px;
+  text-transform: uppercase;
+  border-color:#DB5849 ;
+
+}
+
+.btn-primary{
+  background-color:#DB5849 ;
+  border-color:#DB5849 ;
+}
+
+
+.btn-primary:hover{
+   background-color:#DB5849 ;
+   border-color:  #DB5849 ;
+   border-width: 1px;
+}
